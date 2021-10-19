@@ -1,1 +1,6 @@
 image: theyoctojester/yocto-esdk:qemuarm
+
+tasks:
+  - name: Prebuild image
+    init: source ~/poky_sdk/environment-setup*
+    prebuild: devtool build-image
