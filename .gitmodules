@@ -1,3 +1,6 @@
 [submodule "examples/libanswer"]
 	path = examples/libanswer
 	url = https://github.com/TheYoctoJester/libanswer
+[submodule "examples/mod-praseodymium"]
+	path = examples/mod-praseodymium
+	url = https://github.com/TheYoctoJester/mod-praseodymium.git
